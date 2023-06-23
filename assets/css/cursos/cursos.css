@@ -1,0 +1,32 @@
+.cursos__logo {
+    padding-bottom: 20px;
+}
+
+.cursos__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cursos__titulo {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+.cursos__txt {
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+/* IMAGENS  */
+
+/* ADM */
+
+.cursos__img-adm, .cursos__img-ds, .cursos__img-farm{
+    max-width: 1200px;
+}

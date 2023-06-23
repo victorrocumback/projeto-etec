@@ -1,0 +1,26 @@
+.contato-logo {
+    padding-bottom: 50px;
+}
+
+.contato__container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+}
+
+.contato__conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.contato-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contato__titulo {
+    font-weight: 500;
+}

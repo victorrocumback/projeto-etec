@@ -1,0 +1,67 @@
+.rodape {
+    padding: 80px 0;
+    width: 100vw;
+    background-color: #262626d2;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape__links, .rodape__contato, .rodape__atendimento {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 300px;
+}
+
+/* LINKS UTEIS  */
+
+.rodape__links {
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+/* .rodape__links__titulo {
+} */
+
+.rodape-links__txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 6px;
+    font-weight: 200;
+}
+
+.rodape-links__link {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape-links__link:hover {
+    text-decoration: underline;
+}
+
+/* CONTATO  */
+
+.rodape-contato__endereco{
+    margin-top: 10px;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+/* ATENDIMENTO  */
+
+.rodape-atendimento__txt{
+    margin-top: 10px;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+/* IMAGEM  */
+
+.rodape__logo {
+    max-width: 250px;
+}

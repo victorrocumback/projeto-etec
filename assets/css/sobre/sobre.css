@@ -1,0 +1,50 @@
+.sobre__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding-bottom: 70px;
+}
+
+.sobre__conteudo {
+    max-width: 480px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.sobre__txt {
+    max-width: 100%;
+}
+
+/* VALORES  */
+
+.container__valores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.sobre__conteudo-valores {
+    text-align: center;
+    
+}
+
+.sobre__img-valores {
+    padding: 80px;
+}
+
+.sobre__titulo-valores {
+    font-size: 2em;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color: var(--cor-vermelho);
+}
+
+.sobre__txt-valores {
+    font-size: 1.2;
+}
+
+.sbValores {
+    width: 1200px;
+}

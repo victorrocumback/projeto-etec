@@ -1,0 +1,25 @@
+.container__direcao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.direcao__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direcao__conteudo {
+    width: 500px;
+}
+
+.direcao__logo {
+    padding-bottom: 50px;
+}
+
+.direcao__titulo {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}

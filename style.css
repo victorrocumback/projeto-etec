@@ -1,0 +1,33 @@
+@import url("reset.css");
+@import url("assets/css/header/header.css");
+@import url("assets/css/carousel/carousel.css");
+@import url("assets/css/cards/cards.css");
+@import url("assets/css/news/news.css");
+@import url("assets/css/footer/footer.css");
+
+@import url("assets/css/cursos/cursos.css");
+@import url("assets/css/contato/contato.css");
+@import url("assets/css/sobre/sobre.css");
+@import url("assets/css/direcao/direcao.css");
+
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root {
+    --font1: "Poppins", sans-serif ;
+    --cor-font1: #262626;
+    --cor-vermelho: #B20000;
+    --cor-botao1: #262626;
+}
+
+body {
+    font-family: var(--font1);
+    background-color: rgb(252, 252, 252);
+    
+}
+
+.container {
+    max-width: 1200px;
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
